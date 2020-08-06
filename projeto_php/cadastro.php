@@ -37,19 +37,5 @@ $usuarioRegex = preg_match("/[\w.]+@/",$_POST['email'],$matches);
         <li class="list-group-item">Endereço: <?php echo $contato->getEndereco(); ?></li>
     </ul>
 </div>
-<div class="mx-5 my-5">
-    <h1>Cadastro COM REGEX</h1>
-    <p>Utilizando Regex </p>
-    <ul class="list-group">
-        <li class="list-group-item">Primeiro nome: <?php echo $nomeComRegex[0]?></li>
-        <li class="list-group-item">Sobrenome: <?php  echo $nomeComRegex[1] ?></li>
-        <li class="list-group-item">Usuário: <?php echo $matches[0]; ?></li>
-        <li class="list-group-item">Senha: <?php  ?></li>
-        <li class="list-group-item">Telefone: <?php  ?></li>
-        <li class="list-group-item">Email:<?php  ?></li>
-        <li class="list-group-item">Endereço: <?php  ?></li>
-    </ul>
-</div>
-
 </body>
 </html>
